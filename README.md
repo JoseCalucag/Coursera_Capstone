@@ -6,8 +6,6 @@
 <img src = "https://github.com/JoseCalucag/Coursera_Capstone/blob/master/pics/Toronto-skyline-768x283.jpg" width = "1000" height = "250">
  </p>
  
- 
-by Jose Calucag
 
 ### I. Introduction/Business Problem
 
@@ -43,9 +41,18 @@ These are the data sources used for this report:
 
 Our main goal is to find an optimum location for a new Mexican restaurant in the city of Toronto. To do that, I needed to create a recommendation model based upon our data sources. So, to start, I pulled the data from the aforementioned geological sources, cleaned them of unusable data (i.e. ‘Not Assigned’ data points and non-‘city of Toronto’ boroughs) to create usable dataframes. For analysis, we used a kmeans clustering method to create clusters of the Toronto neighborhoods; to which I also used to create visualizations using the Folium package.
 
+<p align = "center">
+<img src = "https://github.com/JoseCalucag/Coursera_Capstone/blob/master/pics/Picture1.png">
+ </p>
+
 With these datasets, I used the Foursquare API to find restaurant data. Here, I was able to  see the frequency of restaurant cuisines for each neighborhood and also locate nearby Mexican restaurants around the city. With this information, we use K-means clustering again to re-establish the Toronto neighborhoods (based upon the Foursquare information) and some machine learning to explore the common food cuisines of each neighborhood. With this information, we can explore the areas of the city that have an established food scene where a new restaurant can tether it’s success onto and to not be built around an already established Mexican restaurant.
 
 ### IV. Results and Discussion
+
+
+<p align = "center">
+<img src = "https://github.com/JoseCalucag/Coursera_Capstone/blob/master/pics/Picture2.png">
+ </p>
 
 Our analysis dictates that even though Toronto has an abundant amount of restaurants (789, according to Foursquare), there are pockets of low density restaurant data for a lot of the areas. Albeit a new restaurant can vitalize a neighborhood and create a new food scene, this is still a gamble. There can be various reasons why there aren’t that many restaurants there (i.e. low income residential where people don’t eat out much, there’s no infrastructure to build a new restaurant, lack of Foursquare data in those areas). So, with a lack of data, it’s a gamble that my client would like to avoid. As well, if you look at the above map, we can see established neighborhoods; but if you notice the black points, those are Mexican restaurants. So, we would also want to avoid the surrounding areas as well.  
 
