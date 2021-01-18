@@ -1,6 +1,5 @@
 
 <h1 align = "center"> Battle of the Toronto Neighborhoods:<br> The Mexican Restaurant </h1>
-<h3 align = "center"> By Jose Calucag </h1>
 
 <p align = "center">
 <img src = "https://github.com/JoseCalucag/Coursera_Capstone/blob/master/pics/Toronto-skyline-768x283.jpg" width = "1000" height = "250">
